@@ -4,7 +4,7 @@ Setting up AzSK means getting the right PowerShell installed, figuring your orga
 
 ## References
 
-https://azsk.azurewebsites.net
+https://azsk.azurewebsites.net  
 https://github.com/azsk
 
 ## Build

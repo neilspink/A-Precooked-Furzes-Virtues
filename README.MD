@@ -1,17 +1,20 @@
-# Dockerized Secure DevOps Kit for Azure (AzSK) 
+# Dockerized Secure DevOps Kit for Azure (AzSK)
 
-Setting up AzSK means getting the right PowerShell installed, figuring your organizations proxy settings into the equation and getting Install-Modules to work consistently. 
+Setting up AzSK means getting the right PowerShell installed, figuring your organizations proxy settings into the equation and getting Install-Modules to work consistently.
 
 ## References
 
-https://azsk.azurewebsites.net  
+https://azsk.azurewebsites.net
 https://github.com/azsk
+https://hub.docker.com/r/neilspink/azsk
 
 ## Build
 
+```
 docker build -t azsk-image .
 
 docker run -it azsk-image:latest
+```
 
 ## Using Docker
 

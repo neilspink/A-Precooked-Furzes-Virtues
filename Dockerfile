@@ -18,9 +18,8 @@ RUN wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod
  apt-get update && \
  apt-get install -y dotnet-sdk-3.1 && \
  /usr/bin/pwsh -c Install-Module AzSK -Force -AllowClobber && \
+ /usr/bin/pwsh -c Set-AzSKPrivacyNoticeResponse yes && \
  rm packages-microsoft-prod.deb
-
-RUN pwsh -Command Set-AzSKPrivacyNoticeResponse yes
 
 RUN apt-get clean
 

@@ -15,15 +15,24 @@ docker run -it azsk-image:latest
 
 ## Using Docker
 
-docker pull docker.io/neilspink/azsk
+1. Get the container running in interactive mode
+    ```
+    docker pull docker.io/neilspink/azsk
+    docker run -it neilspink/azsk
+    ```
 
-docker run -it neilspink/azsk
+2. You need to login to Azure.
+    ```
+    Connect-AzAccount
+    ```
+    It will prompt you to log in via web browser when you have entered the code and selected your account wait go back to prompt and press enter.
 
-When you see the PS /> prompt you can run AzSK.
+    *Once you get the Microsoft login screen success, go to the Docker screen and press <Enter> to provoke the console.*
 
-Get-AzSKControlsStatus -SubscriptionId
-
-Importing Az modules may take a while. It will prompt you to log in via web browser when you have entered the code and selected your account wait go back to prompt and press enter.
+3. Now you can run an AzSK scan.
+    ```
+    Get-AzSKControlsStatus -SubscriptionId [<Your Subscription Id>]
+    ```
 
 For Help Goto https://azsk.azurewebsites.net/02-Secure-Development/Readme.html#execute-svts-for-all-controls-of-all-resources-in-a-given-subscription
 

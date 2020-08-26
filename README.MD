@@ -4,17 +4,9 @@ Setting up AzSK means getting the right PowerShell installed, figuring your orga
 
 ## References
 
-https://azsk.azurewebsites.net
-https://github.com/azsk
+https://azsk.azurewebsites.net  
+https://github.com/azsk  
 https://hub.docker.com/r/neilspink/azsk
-
-## Build
-
-```
-docker build -t azsk-image .
-
-docker run -it azsk-image:latest
-```
 
 ## Using Docker
 
@@ -39,3 +31,10 @@ docker run -it azsk-image:latest
 
 For Help Goto https://azsk.azurewebsites.net/02-Secure-Development/Readme.html#execute-svts-for-all-controls-of-all-resources-in-a-given-subscription
 
+## Build
+
+```
+docker build -t azsk-image .
+
+docker run -it azsk-image:latest
+```

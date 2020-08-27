@@ -26,6 +26,14 @@ https://hub.docker.com/r/neilspink/azsk
 
 For Help Goto https://azsk.azurewebsites.net/02-Secure-Development/Readme.html#execute-svts-for-all-controls-of-all-resources-in-a-given-subscription
 
+## Security
+
+Worried about the risk of Docker files, run a [Trivy](https://github.com/aquasecurity/trivy) scan.
+
+```
+docker run --rm aquasec/trivy neilspink/azsk
+```
+
 ## Build
 
 ```

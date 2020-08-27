@@ -12,7 +12,6 @@ https://hub.docker.com/r/neilspink/azsk
 
 1. Get the container running in interactive mode
     ```
-    docker pull docker.io/neilspink/azsk
     docker run -it neilspink/azsk
     ```
 

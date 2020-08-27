@@ -20,9 +20,9 @@ https://hub.docker.com/r/neilspink/azsk
     Get-AzSKControlsStatus -SubscriptionId [<Your Subscription Id>]
     ```
 
-    It will prompt you to log in via web browser when you have entered the code and selected your account.
+    You first receive a sign in prompt to authenticate using Azure credentials using a web browser URL https://microsoft.com/devicelogin.
 
-    *Once you get the Microsoft login screen success, go to the Docker screen and press <Enter> to provoke the console.*
+    *Once you get the Microsoft login screen success, go to the Docker screen and press \<Enter\> to provoke the console.*
 
 For Help Goto https://azsk.azurewebsites.net/02-Secure-Development/Readme.html#execute-svts-for-all-controls-of-all-resources-in-a-given-subscription
 

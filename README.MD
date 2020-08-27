@@ -16,18 +16,14 @@ https://hub.docker.com/r/neilspink/azsk
     docker run -it neilspink/azsk
     ```
 
-2. You need to login to Azure.
-    ```
-    Connect-AzAccount
-    ```
-    It will prompt you to log in via web browser when you have entered the code and selected your account wait go back to prompt and press enter.
-
-    *Once you get the Microsoft login screen success, go to the Docker screen and press <Enter> to provoke the console.*
-
-3. Now you can run an AzSK scan.
+2. Now you can run an AzSK scan.
     ```
     Get-AzSKControlsStatus -SubscriptionId [<Your Subscription Id>]
     ```
+
+    It will prompt you to log in via web browser when you have entered the code and selected your account.
+
+    *Once you get the Microsoft login screen success, go to the Docker screen and press <Enter> to provoke the console.*
 
 For Help Goto https://azsk.azurewebsites.net/02-Secure-Development/Readme.html#execute-svts-for-all-controls-of-all-resources-in-a-given-subscription
 
